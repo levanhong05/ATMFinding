@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tìm ATM</string>
+    <string name="avatar">avatar</string>
+    <string name="myName">Name: Lê Văn Hồng</string>
+    <string name="myYahoo">Yahoo/Skype ID: ngannamdoi05</string>
+    <string name="myEmail">Email: levanhong05@gmail.com</string>
+    <string name="mySocial">Social: www.facebook.com/BunnyStupid</string>
+    <string name="myAbout">About Me:</string>
+    <string name="myAbout1">Software Engineering Department</string>
+    <string name="myAbout2">Factory of Information Technology</string>
+    <string name="myAbout3">Ho Chi Minh City University of Science</string>
+    <string name="sendSMS">Gửi SMS</string>
+    <string name="boqua">Bỏ Qua</string>
+    <string name="tieude">Tiêu đề </string>
+    <string name="nganhang">Ngân hàng</string>
+    <string name="tinhthanh">Tỉnh/Thành</string>
+    <string name="quanhuyen">Quận/Huyện</string>
+    <string name="timkiem">Tìm Kiếm</string>
+    <string name="atmogan">ATM Ở Gần</string>
+    <string name="nganhang1">Ngân hàng: </string>
+    <string name="khuvuc">Khu vực: </string>
+    <string name="timtheotenduong">Tìm theo tên đường</string>
+    <string name="noidung">Nội dung</string>
+    <string name="gui">Gửi</string>
+	<string name="hello">Hello World!</string>
+    <string name="actionbar_activity_not_found">Failed to open intent</string>
+</resources>

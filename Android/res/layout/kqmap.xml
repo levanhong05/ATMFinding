@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/relativeLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+        
+         <com.google.android.maps.MapView
+        android:id="@+id/mapView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:enabled="true"
+        android:clickable="true"
+                 android:apiKey="0ldnGXI3TNEPi_dixF4e8utg9HCQtBUVFrsPtnA"
+                 />
+
+	<LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:layout_marginLeft="7dip"
+	    android:layout_marginTop="7dip"
+	    android:clickable="true"
+	    android:gravity="left"
+	    android:orientation="horizontal" >
+
+    <Button
+             android:id="@+id/bttlui"
+             android:layout_width="50dip"
+             android:layout_height="32dip"
+             android:drawableLeft="@drawable/lui"/>
+    <Button
+             android:id="@+id/btttien"
+             android:layout_width="50dip"
+             android:layout_height="32dip"
+             android:drawableRight="@drawable/toi"
+             android:layout_marginLeft="-8dip"/>
+	</LinearLayout>         
+</RelativeLayout>

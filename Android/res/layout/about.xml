@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+    <com.markupartist.android.widget.ActionBar
+        android:id="@+id/actionBar"
+        style="@style/ActionBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="208dp"
+        android:layout_height="191dp"
+        android:layout_gravity="center"
+        android:contentDescription="@string/avatar"
+        android:src="@drawable/author" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="20dip"
+        android:paddingRight="20dip" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="3dip"
+            android:text="@string/myName"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt101"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="3dip"
+            android:text="@string/myYahoo"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt102"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="3dip"
+            android:text="@string/myEmail"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt103"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="3dip"
+            android:text="@string/mySocial"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt104"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/myAbout"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+        
+        <TextView
+            android:id="@+id/txt105"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/myAbout1"
+            android:paddingLeft="30px"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+        
+        <TextView
+            android:id="@+id/txt106"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/myAbout2"
+            android:paddingLeft="30px"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+        
+        <TextView
+            android:id="@+id/txt107"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="30px"
+            android:text="@string/myAbout3"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    
+
+</LinearLayout>

@@ -1,0 +1,16 @@
+<animation-list	xmlns:android="http://schemas.android.com/apk/res/android" android:oneshot="false"
+>
+<item
+android:drawable="@drawable/current_loc1"
+android:duration="200" />
+<item
+android:drawable="@drawable/current_loc2"
+android:duration="200" />
+<item
+android:drawable="@drawable/current_loc3"
+android:duration="200" />
+<item
+android:drawable="@drawable/current_loc4"
+android:duration="200" />
+
+</animation-list>

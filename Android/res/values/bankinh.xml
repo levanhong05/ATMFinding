@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="bankinh_item">
+        <item >Phạm vi</item>
+        <item >100 mét</item>
+        <item >200 mét</item>
+        <item >500 mét</item>
+        <item >1 km</item>
+        <item >5km</item>
+        <item >Tùy chọn</item>
+    </string-array>
+    <string-array name="bankinh_values">
+        <item >0</item>
+        <item >100</item>
+        <item >200</item>
+        <item >500</item>
+        <item >1000</item>
+        <item >5000</item>
+    </string-array>
+    <string-array name="kieuhienthi_item">
+        <item >Kiểu bản đồ</item>
+        <item >Kiểu đường phố</item>
+    </string-array>
+    <string-array name="kieuhienthi_values">
+        <item >kieubando</item>
+        <item >kieuduongpho</item>
+    </string-array>
+    
+</resources>

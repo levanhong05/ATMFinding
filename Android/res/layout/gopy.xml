@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/bgmain"
+    >
+        <com.markupartist.android.widget.ActionBar
+        android:id="@+id/actionBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/ActionBar"/>
+	<LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip">
+    	<TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tieude"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        <EditText
+            android:id="@+id/edt_tieude"
+            android:layout_width="0dip"
+            android:inputType="text"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" 
+            android:maxLines="1"
+            android:maxLength="100">
+        </EditText>
+    </LinearLayout>
+    <TextView
+	        android:id="@+id/textView2"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/noidung"
+	        android:textAppearance="?android:attr/textAppearanceLarge"
+	        android:paddingLeft="10dip"
+	        android:paddingRight="10dip" />
+    <LinearLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:padding="10dip">     
+        <EditText
+	        android:id="@+id/edt_noidung"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:inputType="textMultiLine"
+	        android:lines="6"
+	        android:maxLines="6"
+	        android:maxLength="500"
+	        android:paddingLeft="10dip"
+        />
+        </LinearLayout>
+   <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="10dip" >
+        <Button
+            android:id="@+id/btt_guigopy"
+            android:layout_width="150dip"
+            android:layout_height="wrap_content"
+            android:text="@string/gui" />
+    </LinearLayout>
+</LinearLayout>

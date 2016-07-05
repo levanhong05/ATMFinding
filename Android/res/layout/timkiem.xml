@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/bgmain">
+
+        <com.markupartist.android.widget.ActionBar
+        android:id="@+id/actionBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/ActionBar"/>
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+		android:padding="10dip">
+
+        <TextView
+            android:id="@+id/txt_bank"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nganhang"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <Spinner
+            android:id="@+id/spn_bank"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/txt_tinh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tinhthanh"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+		<Spinner
+	        android:id="@+id/spn_tinh"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content" />
+
+    	<TextView
+	        android:id="@+id/txt_quan"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/quanhuyen"
+	        android:textAppearance="?android:attr/textAppearanceMedium" />
+   
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+       <EditText
+            android:id="@+id/edt_tenduong"
+            android:inputType="text"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:maxLines="1" 
+            android:maxLength="100">
+            <requestFocus />
+        </EditText>
+        <Spinner
+            android:id="@+id/spn_quan"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"/>
+    </RelativeLayout>
+
+    <CheckBox
+        android:id="@+id/cbx_timkiem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/timtheotenduong" 
+       />
+
+    <Button
+        android:id="@+id/btt_timkiem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/timkiem"
+        android:layout_marginTop="20dip"
+        android:layout_gravity="center"
+        android:width="200dip"
+        />
+ </LinearLayout>
+</LinearLayout>

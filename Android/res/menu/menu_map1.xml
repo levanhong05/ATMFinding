@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item 
+        android:id="@+id/myLocation"
+        android:alphabeticShortcut="m"
+        android:title="Tôi ở đâu"
+        android:icon="@drawable/myloc"/>
+    <item 
+        android:id="@+id/veduong"
+        android:alphabeticShortcut="v"
+        android:title="Vẽ đường tới"
+        android:icon="@drawable/duongdi"/>  
+    <item 
+        android:id="@+id/home"
+        android:alphabeticShortcut="h"
+        android:title="Menu Chính"
+        android:icon="@drawable/vemenu"/>      
+</menu>

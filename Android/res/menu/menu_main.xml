@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:id="@+id/mn_gopy"
+        android:title="Góp ý"
+        android:alphabeticShortcut="g"
+        android:icon="@drawable/gopy"
+        />
+    <item
+        android:id="@+id/mn_about"
+        android:title="Về tác giả"
+        android:alphabeticShortcut="a"
+        android:icon="@drawable/about"/>
+    <item
+        android:id="@+id/mn_out"
+        android:title="Đóng ứng dụng"
+        android:alphabeticShortcut="q"
+        android:icon="@drawable/shutdow"/> 
+</menu>

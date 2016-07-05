@@ -1,0 +1,4 @@
+$mysql_host = "mysql11.000webhost.com";
+$mysql_database = "a6660887_tramATM";
+$mysql_user = "a6660887_honglv";
+$mysql_password = "levanhong05";
